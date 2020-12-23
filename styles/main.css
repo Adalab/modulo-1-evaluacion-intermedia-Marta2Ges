@@ -13,6 +13,7 @@ width: 100%;
 color: #4a4a4a;
 display: flex;
 flex-direction:column;
+z-index: 1;
 
 
 }
@@ -27,25 +28,27 @@ flex-direction:column;
     width: 155px;
 }
 
-.Blog {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
 .navigation {
     display: flex;
     flex-direction:row;
-
     justify-content: space-between;
     width:100%;
     font-family: 'Rubik', sans-serif
 }
-    
+.list-header {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    color: #4a4a4a;
+    list-style: none;
+    padding: 0, 15px;
 
- 
+}
+
 .blog {
     text-size-adjust: 106px;
+    color: #4a4a4a;
+
 }
 
 .main {
@@ -74,8 +77,12 @@ font-family: 'Rubik', sans-serif;
 
 
 @media all and(min-width:768px) {
-.header{
-flex-direction: column-reverse;
+.list-header {
+flex-direction: row-reverse;
 justify-content: center;
+}
+
+.logo1 {
+justify-content: left;
 
 }
