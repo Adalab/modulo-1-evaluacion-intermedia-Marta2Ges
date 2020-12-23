@@ -4,14 +4,37 @@
  box-sizing: border-box;  
 }
 
+.header {
+position: fixed;
+background-color: chocolate;
+top: 0;
+width: 100%;
+
+}
 
 
 .main {
-background-color: blue;
+background-color: #3CDBC0;
+text-size-adjust: 30px;
+color: #FFFFFF ;
 display: flex;
 height: 100vh;
 justify-content:center ;
 align-items: center;
-
+font-family: 'Rubik', sans-serif;
 
 }
+
+.title {
+    text-align: center;
+
+}
+
+.title-item {
+    display: block;
+
+}
+
+
+
+
