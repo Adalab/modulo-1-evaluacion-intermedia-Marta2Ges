@@ -6,16 +6,47 @@
 
 .header {
 position: fixed;
-background-color: chocolate;
+padding: 10px;
+background-color: #FFFFFF;
 top: 0;
 width: 100%;
 color: #4a4a4a;
+display: flex;
+flex-direction:column;
+
 
 }
 
+.logo1 {
+    display: flex;
+    justify-content: center;
+  
+}
 
+.logo {
+    width: 155px;
+}
 
+.Blog {
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
+.navigation {
+    display: flex;
+    flex-direction:row;
+
+    justify-content: space-between;
+    width:100%;
+    font-family: 'Rubik', sans-serif
+}
+    
+
+ 
+.blog {
+    text-size-adjust: 106px;
+}
 
 .main {
 background-color: #3CDBC0;
@@ -42,3 +73,9 @@ font-family: 'Rubik', sans-serif;
 
 
 
+@media all and(min-width:768px) {
+.header{
+flex-direction: column-reverse;
+justify-content: center;
+
+}
