@@ -35,21 +35,22 @@ z-index: 1;
     justify-content: space-between;
     width:100%;
     font-family: 'Rubik', sans-serif
+
 }
 .list-header {
     display: flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:center;
     color: #4a4a4a;
     list-style: none;
-    padding: 0, 15px;
+    font-size: 16px;
 
 }
 
 .blog {
     text-size-adjust: 106px;
     color: #4a4a4a;
-
+    font-size: 16px;
 }
 
 .main {
