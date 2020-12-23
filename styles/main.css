@@ -29,6 +29,7 @@ z-index: 1;
 }
 
 .navigation {
+    color: #4a4a4a;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
@@ -38,7 +39,7 @@ z-index: 1;
 .list-header {
     display: flex;
     flex-direction:row;
-    justify-content: center;
+    justify-content:space-between;
     color: #4a4a4a;
     list-style: none;
     padding: 0, 15px;
