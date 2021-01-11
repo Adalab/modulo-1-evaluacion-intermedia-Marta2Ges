@@ -35,6 +35,8 @@ z-index: 1;
     justify-content: space-between;
     width:100%;
     font-family: 'Rubik', sans-serif
+   
+    
 
 }
 .list-header {
@@ -44,6 +46,7 @@ z-index: 1;
     color: #4a4a4a;
     list-style: none;
     font-size: 16px;
+   
 
 }
 
@@ -72,6 +75,7 @@ font-family: 'Rubik', sans-serif;
 
 .title-item {
     display: block;
+    text-transform: capitalize;
 
 }
 
@@ -86,5 +90,6 @@ justify-content: center;
 
 .logo1 {
 justify-content: left;
+}
 
 }
